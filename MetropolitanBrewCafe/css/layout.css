@@ -160,3 +160,83 @@
         font-size: 2.5rem;
     }
 }
+
+/* About Section */
+.about-section {
+    padding: 6rem 5%;
+    background-color: #fcfbf8;
+    text-align: center;
+    color: var(--color-espresso);
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--color-espresso);
+    font-family: var(--font-heading);
+}
+
+.about-content p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #5a4a4a;
+    font-weight: 300;
+}
+
+.about-content .highlight {
+    color: var(--color-gold);
+    font-weight: 600;
+}
+
+.about-content .signature {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    color: var(--color-gold);
+    margin-top: 3rem;
+    display: block;
+    font-style: italic;
+}
+
+/* Footer */
+.site-footer {
+    background-color: var(--color-espresso);
+    color: var(--color-latte);
+    padding: 3rem 5%;
+    text-align: center;
+}
+
+.site-footer .footer-logo {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-gold);
+}
+
+.social-links {
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-links a {
+    color: var(--color-latte);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: var(--color-gold);
+}
+
+.copyright {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}

@@ -78,7 +78,8 @@ export function toggleCart() {
     const overlay = document.getElementById('cart-overlay');
     drawer.classList.toggle('open');
     overlay.classList.toggle('active');
-    overlay.classList.toggle('hidden'); // Handle the display:none helper
+    // Remove hidden class if present to allow transitions
+    overlay.classList.remove('hidden');
 }
 
 /**

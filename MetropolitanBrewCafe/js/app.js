@@ -7,7 +7,13 @@ import * as UI from './ui.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     // Initial Render
-    UI.renderMenu(menuItems);
+    try {
+        console.log("Rendering menu items:", menuItems);
+        UI.renderMenu(menuItems);
+    } catch (error) {
+        console.error("Error rendering menu:", error);
+        UI.showToast("Error loading menu items.");
+    }
 
     // --- Event Listeners ---
 
