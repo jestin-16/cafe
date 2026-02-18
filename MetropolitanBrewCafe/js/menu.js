@@ -39,7 +39,7 @@ const menuItems = [
         price: 9.25,
         category: "breakfast",
         description: "Fluffy pancakes made with ripe Nendran banana and jaggery, served warm.",
-        image: "https://images.unsplash.com/photo-1587735243615-c03f25aaff15?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/64/c2/4a/64c24aaf879b8d6c59cd6a67b769c17b.jpg"
     },
     {
         id: 6,
@@ -47,7 +47,7 @@ const menuItems = [
         price: 10.25,
         category: "breakfast",
         description: "Spiced Malabar-style chicken filling layered in toasted bread with fresh greens.",
-        image: "https://images.unsplash.com/photo-1553909489-cd47e0ef937f?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/fc/18/4e/fc184e35f221e82f0c58d4eaf7d83c1b.jpg"
     },
     {
         id: 7,
@@ -55,7 +55,7 @@ const menuItems = [
         price: 5.20,
         category: "breakfast",
         description: "Kerala tea-shop favorite — crispy vegetable cutlets served with mint chutney.",
-        image: "https://images.unsplash.com/photo-1604908177522-4294c3b0b7f8?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/29/34/af/2934afc3c8a68302bd04917a7f16525d.jpg"
     },
     {
         id: 8,
@@ -63,7 +63,7 @@ const menuItems = [
         price: 4.80,
         category: "pastries",
         description: "Soft fried rice-banana dumplings with jaggery and coconut, a sweet Kerala classic.",
-        image: "https://images.unsplash.com/photo-1669720436395-3c2c932a3b67?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/46/a3/e6/46a3e673975853919479cee6a3a58d74.jpg"
     },
     {
         id: 9,
