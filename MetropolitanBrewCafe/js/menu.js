@@ -227,7 +227,7 @@ const menuItems = [
         price: 5.35,
         category: "coffee",
         description: "Aromatic black tea with warm spices, steamed milk, and a dusting of cinnamon.",
-        image: "https://images.unsplash.com/photo-1515823664402-096e105b452e?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/82/37/57/82375702cb51fc8a92a066158ed3976b.jpg"
     },
     {
         id: 29,
@@ -235,7 +235,7 @@ const menuItems = [
         price: 3.25,
         category: "coffee",
         description: "Freshly brewed premium coffee served bold and pure.",
-        image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/1200x/6a/e4/82/6ae482a0690b8ca89fd3acd554a36d66.jpg"
     },
     {
         id: 30,
@@ -243,7 +243,7 @@ const menuItems = [
         price: 3.10,
         category: "coffee",
         description: "A comforting cup of robust black tea, perfectly steeped and served hot.",
-        image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/32/b3/93/32b39363b72b8720708bf5786956fb38.jpg"
     },
     {
         id: 31,
@@ -251,7 +251,7 @@ const menuItems = [
         price: 8.75,
         category: "breakfast",
         description: "Toasted artisan bread layered with grilled vegetables, pesto, fresh greens, and cheese.",
-        image: "https://images.unsplash.com/photo-1553909489-cd47e0ef937f?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/1200x/10/b8/a1/10b8a182eb770eca8077f908dfdc77ae.jpg"
     },
     {
         id: 32,
@@ -259,7 +259,7 @@ const menuItems = [
         price: 6.95,
         category: "pastries",
         description: "Our house specialty sponge layered with silky crème, finished with elegant frosting.",
-        image: "https://images.unsplash.com/photo-1542826438-2c7f3f3d5a97?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/25/c6/20/25c620e93456b923a6ad4e6de1ddfafb.jpg"
     },
     {
         id: 33,
@@ -267,7 +267,7 @@ const menuItems = [
         price: 7.50,
         category: "pastries",
         description: "Rich baked cheesecake topped with luscious blueberry compote.",
-        image: "https://images.unsplash.com/photo-1567171466295-4afa63d45416?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/96/bc/87/96bc8704a6afe56375c910dbafef3280.jpg"
     }
 
 ];
