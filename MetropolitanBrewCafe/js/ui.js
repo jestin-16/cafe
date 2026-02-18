@@ -1,6 +1,22 @@
 
 // ui.js - DOM Manipulation
 
+const FALLBACK_IMAGE = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(`
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B2F2F"/>
+      <stop offset="1" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Inter, Arial, sans-serif" font-size="40" fill="#F5F5DC">
+    Metropolitan Brew Café
+  </text>
+</svg>
+`)}`;
+
 /**
  * Renders the menu items into the grid container.
  * @param {Array} items - The list of menu items to render.
@@ -10,7 +26,8 @@ export function renderMenu(items) {
     menuGrid.innerHTML = items.map(item => `
         <div class="menu-card" data-category="${item.category}">
             <div class="card-image">
-                <img src="${item.image}" alt="${item.name}" loading="lazy">
+                <img src="${item.image || FALLBACK_IMAGE}" alt="${item.name}" loading="lazy" referrerpolicy="no-referrer"
+                    onerror="this.onerror=null;this.src='${FALLBACK_IMAGE}'">
             </div>
             <div class="card-content">
                 <div class="card-header">
@@ -38,7 +55,8 @@ export function renderCart(cartItems) {
 
     cartContainer.innerHTML = cartItems.map(item => `
         <div class="cart-item">
-            <img src="${item.image}" alt="${item.name}" class="cart-item-img">
+            <img src="${item.image || FALLBACK_IMAGE}" alt="${item.name}" class="cart-item-img" referrerpolicy="no-referrer"
+                onerror="this.onerror=null;this.src='${FALLBACK_IMAGE}'">
             <div class="cart-item-details">
                 <div class="cart-item-title">${item.name}</div>
                 <div class="cart-item-price">$${(item.price * item.quantity).toFixed(2)}</div>
