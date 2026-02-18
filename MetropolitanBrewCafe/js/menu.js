@@ -6,7 +6,7 @@ const menuItems = [
         price: 5.50,
         category: "coffee",
         description: "Our signature espresso with vanilla bean syrup, steamed milk, and house-made caramel drizzle.",
-        image: "https://images.unsplash.com/photo-1485808191679-5f8c7c835569?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/1200x/70/31/bd/7031bde15d4606b3766161584b2e318c.jpg"
     },
     {
         id: 2,
@@ -14,7 +14,7 @@ const menuItems = [
         price: 4.95,
         category: "coffee",
         description: "Slow-steeped for 24 hours. Smooth, bold, and served over crystal ice.",
-        image: "https://images.unsplash.com/photo-1517701604599-bb29b5c7dd90?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/19/4f/03/194f03f56977b376d287bf0b28c4625f.jpg"
     },
     {
         id: 3,
@@ -22,7 +22,7 @@ const menuItems = [
         price: 9.50,
         category: "breakfast",
         description: "Rustic sourdough pilled high with smashed avocado, radish, chili flakes, and microgreens.",
-        image: "https://images.unsplash.com/photo-1588137372308-15f75323a51d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/1200x/1f/10/a7/1f10a70a6e6169d0c8abb8a66821e445.jpg"
     },
     {
         id: 4,
