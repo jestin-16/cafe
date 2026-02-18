@@ -15,7 +15,7 @@ const menuItems = [
         price: 2.50,
         category: "coffee",
         description: "Classic Kerala black tea, bold and refreshing — a true roadside chai experience.",
-        image: "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/aa/22/0d/aa220d97f7143ab98b80b0705eeb4679.jpg"
     },
     {
         id: 3,
@@ -31,7 +31,7 @@ const menuItems = [
         price: 4.95,
         category: "breakfast",
         description: "Chilled tender coconut blended with milk and ice cream for a creamy tropical sip.",
-        image: "https://images.unsplash.com/photo-1625944525903-b5d6c6f5a4c6?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/1b/11/47/1b11470b7d87f5d06cf8d9c7d5b0c1db.jpg"
     },
     {
         id: 5,
@@ -71,7 +71,7 @@ const menuItems = [
         price: 7.90,
         category: "pastries",
         description: "Creamy cheesecake infused with fresh elaneer and coconut — Kerala tropical dessert.",
-        image: "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/8d/71/f4/8d71f4a7bfecb3903492d949dc64a9f7.jpg"
     },
     {
         id: 10,
@@ -79,7 +79,7 @@ const menuItems = [
         price: 3.95,
         category: "pastries",
         description: "Moist muffin made with ripe Kerala banana and unrefined jaggery sweetness.",
-        image: "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/ba/dc/af/badcaf1d5c7c2ef8d5853747f929b8a3.jpg"
     },
 
     // ➕ More Kerala Café Items
@@ -89,7 +89,7 @@ const menuItems = [
         price: 3.90,
         category: "pastries",
         description: "Golden-fried ripe Kerala banana fritters — crispy outside, soft inside.",
-        image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/1200x/e3/9e/89/e39e899e4ef4218654d2332626a581ca.jpg"
     },
     {
         id: 12,
@@ -97,7 +97,7 @@ const menuItems = [
         price: 3.50,
         category: "pastries",
         description: "Traditional rose cookies from Kerala, light, crunchy, and subtly sweet.",
-        image: "https://images.unsplash.com/photo-1631515242808-497c3e2d1c60?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/1200x/bb/14/0c/bb140c69a407270e7d39d99f1a4acda7.jpg"
     },
     {
         id: 13,
@@ -105,7 +105,7 @@ const menuItems = [
         price: 4.60,
         category: "breakfast",
         description: "Flaky bakery puff pastry stuffed with spiced egg masala filling.",
-        image: "https://images.unsplash.com/photo-1604908177443-9e4e4c1a7a91?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/1200x/b6/a9/d4/b6a9d48510444b350c24bc9625da55d3.jpg"
     },
     {
         id: 14,
@@ -203,7 +203,7 @@ const menuItems = [
         price: 5.75,
         category: "coffee",
         description: "Espresso poured over ice with silky milk and caramel drizzle.",
-        image: "https://images.unsplash.com/photo-1517701604599-bb29b5c7dd90?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/97/6f/e7/976fe7d600238d377e398a77cd45bd51.jpg"
     },
     {
         id: 26,
