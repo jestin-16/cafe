@@ -113,7 +113,7 @@ const menuItems = [
         price: 3.30,
         category: "coffee",
         description: "Kerala-style milk tea infused with fragrant cardamom pods.",
-        image: "https://images.unsplash.com/photo-1542444459-db63c5fbd0d4?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/83/e7/ef/83e7efb0b9fe566cb842a7cff58afdf4.jpg"
     },
     {
         id: 15,
@@ -121,7 +121,7 @@ const menuItems = [
         price: 3.80,
         category: "breakfast",
         description: "Cooling herbal sarbath drink with nannari root syrup and lime.",
-        image: "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/25/f3/12/25f31286d181cc89ed777dcf7564112c.jpg"
     },
 
     // ☕ Original Café Menu (after Kerala)
@@ -211,7 +211,7 @@ const menuItems = [
         price: 4.50,
         category: "coffee",
         description: "Velvety steamed milk blended with rich dark chocolate and topped with foam.",
-        image: "https://images.unsplash.com/photo-1485808191679-5f8c7c835569?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/736x/97/b9/14/97b9142edf9f082623d428810ead55d9.jpg"
     },
     {
         id: 27,
@@ -219,7 +219,7 @@ const menuItems = [
         price: 5.10,
         category: "breakfast",
         description: "Chilled blend of mixed berries, mint, and sparkling water for a light, cold sip.",
-        image: "https://images.unsplash.com/photo-1485808191679-5f8c7c835569?auto=format&fit=crop&w=800&q=80"
+        image: "https://i.pinimg.com/1200x/4a/2c/46/4a2c465f5cd6c28cd7ba01404057511f.jpg0"
     },
     {
         id: 28,
