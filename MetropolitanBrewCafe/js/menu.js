@@ -219,7 +219,7 @@ const menuItems = [
         price: 5.10,
         category: "breakfast",
         description: "Chilled blend of mixed berries, mint, and sparkling water for a light, cold sip.",
-        image: "https://i.pinimg.com/1200x/4a/2c/46/4a2c465f5cd6c28cd7ba01404057511f.jpg0"
+        image: "https://i.pinimg.com/1200x/4a/2c/46/4a2c465f5cd6c28cd7ba01404057511f.jpg"
     },
     {
         id: 28,
