@@ -1,12 +1,13 @@
 :root {
-    --color-espresso: #3B2F2F;
-    --color-latte: #F5F5DC;
-    --color-gold: #D4AF37;
-    --color-cream: #FFFDD0;
-    --color-dark-overlay: rgba(59, 47, 47, 0.8);
-    --color-glass-bg: rgba(255, 255, 255, 0.1);
-    --color-glass-border: rgba(255, 255, 255, 0.2);
-    --shadow-soft: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --color-espresso: #4A3B32; /* Teak Wood */
+    --color-latte: #FDFBF0; /* Kasavu Cream */
+    --color-gold: #D4AF37; /* Kasavu Gold */
+    --color-cream: #FFFDD0; /* Classic Cream */
+    --color-kerala-green: #2E5902; /* Lush Green */
+    --color-dark-overlay: rgba(46, 89, 2, 0.8); /* Green overlay */
+    --color-glass-bg: rgba(253, 251, 240, 0.6); /* Warm glass */
+    --color-glass-border: rgba(212, 175, 55, 0.3); /* Gold border */
+    --shadow-soft: 0 4px 12px rgba(46, 89, 2, 0.1);
     --font-primary: 'Inter', sans-serif;
     --font-heading: 'Playfair Display', serif;
 }
