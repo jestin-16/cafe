@@ -167,3 +167,71 @@
         visibility: hidden;
     }
 }
+
+/* Menu section: title & filter animations */
+.menu-section-head .menu-section-title {
+    animation: menuTitleIn 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.menu-section-head .menu-section-subtitle {
+    animation: menuTitleIn 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.1s both;
+}
+
+@keyframes menuTitleIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.menu-section .filter-btn {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease, color 0.3s ease;
+}
+
+.menu-section .filter-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(74, 59, 50, 0.15);
+}
+
+.menu-section .filter-btn.active {
+    transform: scale(1.02);
+    box-shadow: 0 4px 14px rgba(212, 175, 55, 0.35);
+}
+
+.menu-section .filter-btn:active {
+    transform: scale(0.98);
+}
+
+/* Menu card: shine sweep on hover */
+.menu-section .menu-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-section .menu-card .card-image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.25),
+        transparent
+    );
+    transition: left 0.6s ease;
+}
+
+.menu-section .menu-card:hover .card-image::after {
+    left: 100%;
+}
+
+.menu-section .card-image {
+    position: relative;
+}

@@ -32,7 +32,7 @@ export function renderMenu(items) {
             <div class="card-content">
                 <div class="card-header">
                     <h3 class="card-title">${item.name}</h3>
-                    <span class="card-price">$${item.price.toFixed(2)}</span>
+                    <span class="card-price">₹${item.price.toFixed(2)}</span>
                 </div>
                 <p class="card-description">${item.description}</p>
                 <button class="add-to-cart-btn" data-id="${item.id}">Add to Cart</button>
@@ -59,7 +59,7 @@ export function renderCart(cartItems) {
                 onerror="this.onerror=null;this.src='${FALLBACK_IMAGE}'">
             <div class="cart-item-details">
                 <div class="cart-item-title">${item.name}</div>
-                <div class="cart-item-price">$${(item.price * item.quantity).toFixed(2)}</div>
+                <div class="cart-item-price">₹${(item.price * item.quantity).toFixed(2)}</div>
                 <div class="cart-item-controls">
                     <button class="qty-btn" data-action="decrease" data-id="${item.id}">-</button>
                     <span>${item.quantity}</span>
@@ -76,7 +76,7 @@ export function renderCart(cartItems) {
  * @param {string} total - The calculated total price.
  */
 export function updateCartTotal(total) {
-    document.getElementById('cart-total').textContent = `$${total}`;
+    document.getElementById('cart-total').textContent = `₹${total}`;
 }
 
 /**
