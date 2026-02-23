@@ -138,6 +138,17 @@ export function showCheckoutModal() {
 }
 
 /**
+ * Updates the checkout success message with a dynamic summary.
+ * @param {string} message - The message to display in the success modal.
+ */
+export function updateOrderMessage(message) {
+    const messageEl = document.getElementById('order-message');
+    if (messageEl && message) {
+        messageEl.textContent = message;
+    }
+}
+
+/**
  * Hides the checkout modal.
  */
 export function hideCheckoutModal() {

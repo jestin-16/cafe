@@ -83,10 +83,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeModalBtn = document.getElementById('close-modal');
 
     checkoutBtn.addEventListener('click', () => {
-        if (Cart.getCart().length === 0) {
+        const cart = Cart.getCart();
+        if (cart.length === 0) {
             UI.showToast("Your cart is empty!");
             return;
         }
+
+        const namesSummary = cart
+            .map(item => `${item.quantity}x ${item.name}`)
+            .join(', ');
+        const successMessage = `Your order for ${namesSummary} is on its way.`;
+        UI.updateOrderMessage(successMessage);
+
         UI.toggleCart(); // Close drawer
         UI.showCheckoutModal();
     });
