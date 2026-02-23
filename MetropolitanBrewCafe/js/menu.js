@@ -261,14 +261,14 @@ const menuItems = [
         description: "Our house specialty sponge layered with silky crème, finished with elegant frosting.",
         image: "https://i.pinimg.com/736x/25/c6/20/25c620e93456b923a6ad4e6de1ddfafb.jpg"
     },
-    {
-        id: 33,
-        name: "Blueberry Baked Cheesecake",
-        price: 195,
-        category: "pastries",
-        description: "Rich baked cheesecake topped with luscious blueberry compote.",
-        image: "https://i.pinimg.com/736x/96/bc/87/96bc8704a6afe56375c910dbafef3280.jpg"
-    }
+    // {
+    //     id: 33,
+    //     name: "Blueberry Baked Cheesecake",
+    //     price: 195,
+    //     category: "pastries",
+    //     description: "Rich baked cheesecake topped with luscious blueberry compote.",
+    //     image: "https://i.pinimg.com/736x/96/bc/87/96bc8704a6afe56375c910dbafef3280.jpg"
+    // }
 
 ];
 
