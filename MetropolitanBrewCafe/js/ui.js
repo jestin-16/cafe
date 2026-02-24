@@ -96,6 +96,7 @@ export function toggleCart() {
     const overlay = document.getElementById('cart-overlay');
     drawer.classList.toggle('open');
     overlay.classList.toggle('active');
+    document.body.classList.toggle('cart-open');
     // Remove hidden class if present to allow transitions
     overlay.classList.remove('hidden');
 }
